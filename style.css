@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('daimond.jpg');
+    background-size:2000px 1000px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.navitems{
+    display: inline-block;
+    font-size: 32px;
+    color: white;
+    margin-left: 260px;
+    margin-top: 6px;
+    cursor: pointer;
+    
+    
+}
+.navitems:hover{
+    font-size: 35px;
+    transition-property: font-size;
+    transition-duration: 1s;
+}
+.headerwrapper{
+    position: relative;
+    display: block;
+    height: 50px;
+    
+}
+#Home{
+    position: absolute;
+    left: 389px;
+}
+.logi{
+    display: inline-block;
+    border: 1px solid;
+    height: 30px;
+    width: 67px;
+    font-size: large;
+    background-color: #b0cef6;
+    border-radius: 25px;
+    cursor: pointer;
+    transition-property: background-color;
+    transition-duration: 1s;
+
+}
+.logi:hover{
+    background-color: #a0c7fa;
+}
+#login{
+    position: absolute;
+    right: 118px;
+    top: 10px;
+}
+#register{
+    position: absolute;
+    right: 27px;
+    top: 10px;
+    padding-right:76px;
+
+    
+}
+#About{
+    position: absolute;
+    left: 489px;
+}
+#services{
+    position: absolute;
+    left: 646px;
+}
+#Contact{
+    position: absolute;
+    left: 785px;
+}
+.headline{
+    color: white;
+    display: inline-block;
+    font-size: 100px;
+    position: absolute;
+    left:532px;
+    top: 100px;
+    text-decoration:underline;
+    height: 133px;
+}
+main{
+    height: 800px;
+    position: relative;
+}
+.booknow{
+    display: inline-block;
+    color: white;
+    position: absolute;
+    left: 959px;
+    top: 223px;
+    font-size:50px ;
+}
+.details{
+    border: 3px solid white;
+    position: absolute;
+    left: 650px;
+    top: 315px;
+    border-radius: 15px;
+}
+input{
+    display: block;
+    height: 30px;
+    width: 342px;
+    margin: 18px;
+    font-size: 20px;
+    border-radius: 15px;
+}
+#subbtn{
+    width: 350px;
+    height: 50px;
+}
